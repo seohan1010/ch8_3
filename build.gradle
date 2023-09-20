@@ -32,7 +32,7 @@ dependencies {
     implementation group: 'com.mysql', name: 'mysql-connector-j', version: '8.1.0'
 
 
-    //mybatis
+    //mybatis ---> 없으면 @Mapper를 이용한 테스트 코드를 실행할수 없을수도 있다.
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.0'
     implementation group: 'org.mybatis', name: 'mybatis', version: '3.5.13'
 
